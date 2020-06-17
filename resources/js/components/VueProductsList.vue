@@ -1,9 +1,5 @@
 <template>
   <div id="list">
-    <!-- <div v-for="product in products" v-bind:key="product.id">
-      <vueproduct :name="product.name" :price="product.price" :quantity="product.quantity"></vueproduct>
-    </div>-->
-
     <table>
       <tr>
         <th>Product Name</th>
@@ -23,12 +19,6 @@
 </template>
 
 <style >
-/* #list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
-
 table {
   border-collapse: collapse;
   width: 60%;

@@ -1,19 +1,5 @@
 <template>
   <form v-on:submit="addProduct">
-    <!-- <div>
-      <label for>Name</label>
-      <input type="text" placeholer="Name" name="name" v-model="name" />
-    </div>
-
-    <div>
-      <label for>Price</label>
-      <input type="text" placeholer="col" name="price" v-model="price" />
-    </div>
-
-    <div>
-      <label for>Quantity</label>
-      <input type="text" placeholer="col" name="quantity" v-model="quantity" />
-    </div>-->
     <vueinput col="name" label="name" v-on:inputChange="handleChange"></vueinput>
     <vueinput col="price" label="price" v-on:inputChange="handleChange"></vueinput>
     <vueinput col="quantity" label="quantity" v-on:inputChange="handleChange"></vueinput>
