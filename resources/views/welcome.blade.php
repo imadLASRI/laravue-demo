@@ -52,7 +52,7 @@
                 @endif
             </div>
 
-            <vueform></vueform>
+            <vueform oldname="{{ old('name') }}" oldprice="{{ old('price') }}" oldquantity="{{ old('quantity') }}"></vueform>
 
             <h3>Products List : </h3>
             <vueproductslist></vueproductslist>

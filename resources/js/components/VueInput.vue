@@ -8,6 +8,7 @@
       autocomplete="off"
       :name="col"
       v-on:input="(event) => this.$emit('inputChange', event)"
+      :value="val"
     />
   </div>
 </template>
@@ -40,6 +41,6 @@ label {
 
 <script>
 export default {
-  props: ["col", "label"]
+  props: ["col", "label", "val"]
 };
 </script>

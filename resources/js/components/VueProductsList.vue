@@ -58,7 +58,7 @@ export default {
       fetch("/allproducts")
         .then(res => res.json())
         .then(data => {
-          console.log(data);
+          //   console.log(data);
           this.products = data;
         });
     }
